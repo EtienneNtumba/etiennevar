@@ -7,3 +7,4 @@ Un outil simple pour lire un fichier VCF et extraire des statistiques de base.
 ```bash
 pip install .
 
+# etiennevar
