@@ -1,0 +1,28 @@
+package:
+  name: etiennevar
+  version: "1.0.0"
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  script: python -m pip install . --no-deps -vv
+
+requirements:
+  host:
+    - python >=3.6
+    - pip
+    - setuptools
+  run:
+    - python >=3.6
+
+test:
+  commands:
+    - etiennevar --help
+
+about:
+  home: https://github.com/tonpseudo/etiennevar
+  license: MIT
+  summary: "Outil simple pour parser un VCF et résumer des statistiques"
+

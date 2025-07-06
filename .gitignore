@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+*.egg-info/
+*.tar.bz2
+*.whl
+.mypy_cache/
+.env/
+.venv/
+.myenv/
+build/
+dist/
+
+.DS_Store
