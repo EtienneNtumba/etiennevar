@@ -1,28 +1,34 @@
 package:
   name: etiennevar
-  version: "1.0.0"
+  version: 1.0.0
 
 source:
-  path: ..
+  path: ../  # ou le chemin vers ta source
 
 build:
   noarch: python
-  script: python -m pip install . --no-deps -vv
+  script: pip install .
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
     - setuptools
+    - wheel
+
   run:
-    - python >=3.6
+    - python >=3.8
 
 test:
   commands:
     - etiennevar --help
 
 about:
-  home: https://github.com/tonpseudo/etiennevar
+  home: https://github.com/etiennekabongo/etiennevar
   license: MIT
-  summary: "Outil simple pour parser un VCF et résumer des statistiques"
+  summary: "Outil en ligne de commande pour résumer les fichiers VCF."
+
+extra:
+  recipe-maintainers:
+    - etiennekabongo
 
