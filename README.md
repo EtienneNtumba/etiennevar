@@ -105,7 +105,7 @@ pip install etiennevar
 
 Développé par **Etienne Kabongo Ntumba**, étudiant-chercheur en bioinformatique et génétique statistique, passionné par l’analyse des données génomiques à grande échelle et la reproductibilité scientifique.
 
-📧 Email : etiennekabongo.bioinfo@gmail.com  
+📧 Email : etienne.ntumba.kabongo@umontreal.ca
 🔗 LinkedIn / GitHub : [@EtienneNtumba](https://github.com/EtienneNtumba)
 
 💡 Contribuez, signalez des bugs ou proposez des améliorations via les [issues GitHub](https://github.com/EtienneNtumba/etiennevar/issues)
